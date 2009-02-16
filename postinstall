@@ -1,0 +1,4 @@
+#!/bin/bash
+
+/usr/bin/mdimport -r /Library/Spotlight/FLAC.mdimporter
+exit 0
