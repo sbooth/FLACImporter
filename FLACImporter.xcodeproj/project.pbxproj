@@ -168,9 +168,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8D57630D048677EA00EA77CD /* FLAC */ = {
+		8D57630D048677EA00EA77CD /* FLAC Spotlight Importer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70138C840896BE9A00968C2F /* Build configuration list for PBXNativeTarget "FLAC" */;
+			buildConfigurationList = 70138C840896BE9A00968C2F /* Build configuration list for PBXNativeTarget "FLAC Spotlight Importer" */;
 			buildPhases = (
 				8D57630E048677EA00EA77CD /* Headers */,
 				8D57630F048677EA00EA77CD /* Resources */,
@@ -182,7 +182,7 @@
 			);
 			dependencies = (
 			);
-			name = FLAC;
+			name = "FLAC Spotlight Importer";
 			productInstallPath = /Library/Spotlight;
 			productName = FLAC;
 			productReference = 8D576316048677EA00EA77CD /* FLAC Spotlight Importer.mdimporter */;
@@ -193,14 +193,14 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 70138C880896BE9A00968C2F /* Build configuration list for PBXProject "FLAC" */;
+			buildConfigurationList = 70138C880896BE9A00968C2F /* Build configuration list for PBXProject "FLACImporter" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
 			mainGroup = 089C166AFE841209C02AAC07 /* FLAC */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D57630D048677EA00EA77CD /* FLAC */,
+				8D57630D048677EA00EA77CD /* FLAC Spotlight Importer */,
 			);
 		};
 /* End PBXProject section */
@@ -361,7 +361,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70138C840896BE9A00968C2F /* Build configuration list for PBXNativeTarget "FLAC" */ = {
+		70138C840896BE9A00968C2F /* Build configuration list for PBXNativeTarget "FLAC Spotlight Importer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70138C850896BE9A00968C2F /* Debug */,
@@ -370,7 +370,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70138C880896BE9A00968C2F /* Build configuration list for PBXProject "FLAC" */ = {
+		70138C880896BE9A00968C2F /* Build configuration list for PBXProject "FLACImporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70138C890896BE9A00968C2F /* Debug */,
