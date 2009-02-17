@@ -7,12 +7,8 @@
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
-			<key>CFBundleTypeExtensions</key>
-			<array>
-				<string>flac</string>
-			</array>
 			<key>CFBundleTypeRole</key>
-			<string>Viewer</string>
+			<string>MDImporter</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>org.xiph.flac</string>
@@ -24,7 +20,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>org.sbooth.FLACImporter</string>
+	<string>org.sbooth.FLACSpotlightImporter</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
