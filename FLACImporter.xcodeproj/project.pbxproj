@@ -252,6 +252,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		32922F550FFA82B300EE9094 /* Release Leopard+ */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.5;
+			};
+			name = "Release Leopard+";
+		};
+		32922F560FFA82B300EE9094 /* Release Leopard+ */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = HAVE_CONFIG_H;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/Spotlight;
+				PRODUCT_NAME = "FLAC Spotlight Importer";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT) $(SRCROOT)/libogg-src/include $(SRCROOT)/flac-src/include $(SRCROOT)/flac-src/src/libFLAC/include";
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = "Release Leopard+";
+		};
 		70138C850896BE9A00968C2F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -311,7 +347,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx10.4;
 			};
 			name = Debug;
 		};
@@ -322,7 +358,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				SDKROOT = macosx10.5;
+				SDKROOT = macosx10.4;
 			};
 			name = Release;
 		};
@@ -334,6 +370,7 @@
 			buildConfigurations = (
 				70138C850896BE9A00968C2F /* Debug */,
 				70138C860896BE9A00968C2F /* Release */,
+				32922F560FFA82B300EE9094 /* Release Leopard+ */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -343,6 +380,7 @@
 			buildConfigurations = (
 				70138C890896BE9A00968C2F /* Debug */,
 				70138C8A0896BE9A00968C2F /* Release */,
+				32922F550FFA82B300EE9094 /* Release Leopard+ */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

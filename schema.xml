@@ -18,7 +18,7 @@
         <attribute name="org_xiph_flac_title" multivalued="false" type="CFString"/>
         <attribute name="org_xiph_flac_trackNumber" multivalued="false" type="CFNumber"/>
         <attribute name="org_xiph_flac_trackTotal" multivalued="false" type="CFNumber"/>
-        <attribute name="org_xiph_flac_compilation" multivalued="false" type="CFNumber"/>
+        <attribute name="org_xiph_flac_compilation" multivalued="false" type="CFBoolean"/>
         <attribute name="org_xiph_flac_discNumber" multivalued="false" type="CFNumber"/>
         <attribute name="org_xiph_flac_discTotal" multivalued="false" type="CFNumber"/>
         <attribute name="org_xiph_flac_ISRC" multivalued="false" type="CFString"/>
@@ -59,8 +59,6 @@
 		org_xiph_flac_compilation
 		org_xiph_flac_discNumber
 		org_xiph_flac_discTotal
-		org_xiph_flac_ISRC
-		org_xiph_flac_MCN
             </displayattrs>
         </type>
     </types>

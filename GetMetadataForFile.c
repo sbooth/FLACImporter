@@ -93,8 +93,7 @@ GetMetadataForFile(void							*thisInterface,
 					char *fieldName = NULL;
 					char *fieldValue = NULL;
 
-					unsigned commentIndex;
-					for(commentIndex = 0; commentIndex < block->data.vorbis_comment.num_comments; ++commentIndex) {
+					for(unsigned commentIndex = 0; commentIndex < block->data.vorbis_comment.num_comments; ++commentIndex) {
 						// Parse a vorbis comment (in the NAME=VALUE format) to a pair of values
 						// Ignore malformed comments
 						if(!FLAC__metadata_object_vorbiscomment_entry_to_name_value_pair(block->data.vorbis_comment.comments[commentIndex], &fieldName, &fieldValue))
