@@ -1,6 +1,6 @@
 /*
  *
- *  Copyright (C) 2006 - 2009 Stephen F. Booth <me@sbooth.org>
+ *  Copyright (C) 2006 - 2011 Stephen F. Booth <me@sbooth.org>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -81,8 +81,8 @@ GetMetadataForFile(void							*thisInterface,
 					CFDictionarySetValue(attributes, kMDItemBitsPerSample, bitsPerSample);
 					CFRelease(bitsPerSample);
 					
-					unsigned long rawDuration = block->data.stream_info.total_samples / block->data.stream_info.sample_rate;
-					CFNumberRef duration = CFNumberCreate(kCFAllocatorDefault, kCFNumberLongType, &rawDuration);
+					unsigned long long rawDuration = block->data.stream_info.total_samples / block->data.stream_info.sample_rate;
+					CFNumberRef duration = CFNumberCreate(kCFAllocatorDefault, kCFNumberLongLongType, &rawDuration);
 					CFDictionarySetValue(attributes, kMDItemDurationSeconds, duration);
 					CFRelease(duration);
 				}
